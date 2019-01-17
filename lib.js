@@ -17,7 +17,7 @@ const DEFAULT_GITHUB_ACCOUNT = 'github_account';
 const DEFAULT_AUTHOR_NAME = 'Your Name';
 const DEFAULT_AUTHOR_EMAIL = 'yourname@email.com';
 const DEFAULT_LICENSE = 'Apache-2.0';
-const DEFAULT_GENERATE_EXAMPLE = false;
+const DEFAULT_GENERATE_EXAMPLE = true;
 
 const renderTemplate = (name, template, templateArgs) => {
   const filename = path.join(name, template.name(templateArgs));
